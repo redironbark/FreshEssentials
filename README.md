@@ -11,7 +11,7 @@ This library aims to alleviate the developer from this burden by providing ready
 
 So far the following types of tools have been built:
 
- * Controls that extend existing Xamarin Controls: the ExtendedPicker.
+ - Controls that extend existing Xamarin Controls: the ExtendedPicker.
 
  - Command Attached properties: the ItemTappedAttached, EntryCompletedAttached and the TappedGestureAttached.
 
