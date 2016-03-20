@@ -58,22 +58,37 @@ Unfortunately the Command Property is not availaible on every XAML control, whic
 
 The ItemTappedProperty is a command property designed to be attached to a ListView to handle the case of when an item is tapped in the list.
 
-###### How to use this control 
+###### Instructions 
+
+###### Implementation and Samples
 
 The implementation of this AttachedProperty is given at:
 
+[ItemTappedAttached.cs](https://github.com/redironbark/FreshEssentials/blob/master/Tools/Tools/ItemTappedAttached.cs)
+
 The sample for this AttachedProperty is given at:
 
+-[AircraftPage.xaml](https://github.com/redironbark/FreshEssentials/blob/master/Samples/Samples/ItemTappedAttached/AircraftPage.xaml)
+
+-[AircraftPage.xaml.cs](https://github.com/redironbark/FreshEssentials/blob/master/Samples/Samples/ItemTappedAttached/AircraftPage.xaml.cs)
 
 #### The TappedGestureAttached Property
 
 The TappedGestureAttached is a command property designed to be attached to a control such as an Image to handle the case of when an item is tapped. 
 
-###### How to use this control 
+###### Instructions 
+
+###### Implementation and Samples
 
 The implementation of this AttachedProperty is given at:
 
+-[TappedGestureAttached.cs](https://github.com/redironbark/FreshEssentials/blob/master/Tools/Tools/TappedGestureAttached.cs)
+
 The sample for this AttachedProperty is given at:
+
+-[MotorbikePage.xaml](https://github.com/redironbark/FreshEssentials/blob/master/Samples/Samples/TappedGestureAttached/MotorbikePage.xaml)
+
+-[MotorbikePage.xaml.cs](https://github.com/redironbark/FreshEssentials/blob/master/Samples/Samples/TappedGestureAttached/MotorbikePage.xaml.cs)
 
 
 #### The EntryCompletedAttached
