@@ -11,7 +11,7 @@ This library aims to alleviate the developer from this burden by providing alrea
 
 So far the following types of tools have been built:
 
- - Controls that extend existing Xamarin Controls: the BindablePicker.
+ - Controls that extend existing Xamarin Controls: the ExtendedPicker.
 
  - Command Attached properties: the ItemTappedAttached, EntryCompletedAttached and the TappedGestureAttached.
 
@@ -22,7 +22,7 @@ These are explained in more detail in the relevent sections contained within thi
 
 ## Existing Controls that have been Extended
 
-#### The BindablePicker.
+#### The ExtendedPicker.
 
 This class extends the existing Picker class described at https://developer.xamarin.com/api/type/Xamarin.Forms.Picker/.
 
@@ -32,10 +32,15 @@ The extended class adds to the functionality of the original picker class by loa
 
 ###### How to use this control 
 
-The implementation of this BindablePicker is given at:
+The implementation of this ExtendedPicker is given at:
 
-The sample for this BindablePicker is given at:
+- [ExtentedPicker.cs](https://github.com/redironbark/FreshEssentials/blob/master/Tools/Tools/ExtendedPicker.cs)
 
+The sample for this ExtendedPicker is given at:
+
+- [ColorPickerPage.xaml](https://github.com/redironbark/FreshEssentials/blob/master/Samples/Samples/ExtendedPicker/ColorPickerPage.xaml)
+
+- [ColorPickerPage.xaml.cs](https://github.com/redironbark/FreshEssentials/blob/master/Samples/Samples/ExtendedPicker/ColorPickerPage.xaml.cs)
 
 
 ## Command Attached Properties
