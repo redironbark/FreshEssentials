@@ -30,7 +30,9 @@ The operation of the original class is similar to that of a pop-up keyboard. The
 
 The extended class adds to the functionality of the original picker class by loading the external source of items internally within the control. Consequently the property changed event is handled automatically, freeing the user from this task.
 
-###### How to use this control 
+###### Instructions 
+
+###### Implementation and Samples 
 
 The implementation of this ExtendedPicker is given at:
 
