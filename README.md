@@ -47,7 +47,7 @@ Tools.ExtendedPicker picker = new Tools.ExtendedPicker
 				AllTitle = "List of Colors",
 				CanHaveAll = true
 			};
-			```
+```
 
 where `"Name"` is the field from the `ColorProperty` object to display in the Extended Picker list and `ColorProperties` is a List of `ColorProperty`.
 
