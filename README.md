@@ -161,6 +161,25 @@ An example would be password entry.
 
 Install the Tools package using NuGet. Alternatively manually add the Tools.dll to the reference of your projects for common pcl, iOS and droid.
 
+In Xaml, add the Tools reference to the ContentPage
+```
+xmlns:local="clr-namespace:Tools;assembly=Tools"
+```
+
+then attach the property to the Entry control
+```
+<Entry x:Name="username" 
+	WidthRequest="200" 
+	Text="{Binding Username}"
+	local:EntryCompletedAttached.Command="{Binding Completed}"
+	local:EntryCompletedAttached.CommandParameter="usernameEntered"/>
+```
+
+In the code behind set the ContentPage binding context to the ViewModel
+```
+BindingContext = new PasswordEntryViewModel (this);
+```
+
 ###### Implementation and Samples
 
 The implementation of this AttachedProperty is given at:
