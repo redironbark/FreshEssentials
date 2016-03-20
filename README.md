@@ -93,7 +93,7 @@ then attach the property to the desired ListView
 	SelectedItem="{Binding SelectedItem}">
 ```
 
-In the code behind set the context to the ViewModel
+In the code behind set the binding context to the ViewModel
 ```
 AircraftViewModel viewModel = new AircraftViewModel (this.Navigation);
 
