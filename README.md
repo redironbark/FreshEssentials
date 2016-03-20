@@ -42,14 +42,13 @@ Tools.ExtendedPicker picker = new Tools.ExtendedPicker
 				HorizontalOptions = LayoutOptions.Center,
 				WidthRequest = 190,
 				DisplayProperty = "Name",   
-				// from the Color Property object.
 				ItemsSource = ColorProperties,  
 				AllTitle = "List of Colors",
 				CanHaveAll = true
 			};
 ```
 
-where `"Name"` is the field from the `ColorProperty` object to display in the Extended Picker list and `ColorProperties` is a List of `ColorProperty`.
+where `"Name"` is the field from the `ColorProperty` object to display in the Extended Picker list and `ColorProperties` is a List of `ColorProperty` objects that is maintained by the control.
 
 
 ###### Implementation and Samples 
@@ -81,6 +80,25 @@ The ItemTappedProperty is a command property designed to be attached to a ListVi
 ###### Instructions 
 
 Install the Tools package using NuGet. Alternatively manually add the Tools.dll to the reference of your projects for common pcl, iOS and droid.
+
+In Xaml, add the reference to the ContentPage
+```
+xmlns:local="clr-namespace:Tools;assembly=Tools"
+```
+
+then attach the property to the desired ListView
+```
+<ListView x:Name="AircraftList" 
+			local:ItemTappedAttached.Command="{Binding Click}"
+			SelectedItem="{Binding SelectedItem}">
+```
+
+In the code behind set the ContentPage binding context to the ViewModel
+```
+AircraftViewModel viewModel = new AircraftViewModel (this.Navigation);
+
+			BindingContext = viewModel;
+```
 
 ###### Implementation and Samples
 
