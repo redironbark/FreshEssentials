@@ -64,13 +64,13 @@ The ItemTappedProperty is a command property designed to be attached to a ListVi
 
 The implementation of this AttachedProperty is given at:
 
-[ItemTappedAttached.cs](https://github.com/redironbark/FreshEssentials/blob/master/Tools/Tools/ItemTappedAttached.cs)
+- [ItemTappedAttached.cs](https://github.com/redironbark/FreshEssentials/blob/master/Tools/Tools/ItemTappedAttached.cs)
 
 The sample for this AttachedProperty is given at:
 
--[AircraftPage.xaml](https://github.com/redironbark/FreshEssentials/blob/master/Samples/Samples/ItemTappedAttached/AircraftPage.xaml)
+- [AircraftPage.xaml](https://github.com/redironbark/FreshEssentials/blob/master/Samples/Samples/ItemTappedAttached/AircraftPage.xaml)
 
--[AircraftPage.xaml.cs](https://github.com/redironbark/FreshEssentials/blob/master/Samples/Samples/ItemTappedAttached/AircraftPage.xaml.cs)
+- [AircraftPage.xaml.cs](https://github.com/redironbark/FreshEssentials/blob/master/Samples/Samples/ItemTappedAttached/AircraftPage.xaml.cs)
 
 #### The TappedGestureAttached Property
 
@@ -82,13 +82,13 @@ The TappedGestureAttached is a command property designed to be attached to a con
 
 The implementation of this AttachedProperty is given at:
 
--[TappedGestureAttached.cs](https://github.com/redironbark/FreshEssentials/blob/master/Tools/Tools/TappedGestureAttached.cs)
+- [TappedGestureAttached.cs](https://github.com/redironbark/FreshEssentials/blob/master/Tools/Tools/TappedGestureAttached.cs)
 
 The sample for this AttachedProperty is given at:
 
--[MotorbikePage.xaml](https://github.com/redironbark/FreshEssentials/blob/master/Samples/Samples/TappedGestureAttached/MotorbikePage.xaml)
+- [MotorbikePage.xaml](https://github.com/redironbark/FreshEssentials/blob/master/Samples/Samples/TappedGestureAttached/MotorbikePage.xaml)
 
--[MotorbikePage.xaml.cs](https://github.com/redironbark/FreshEssentials/blob/master/Samples/Samples/TappedGestureAttached/MotorbikePage.xaml.cs)
+- [MotorbikePage.xaml.cs](https://github.com/redironbark/FreshEssentials/blob/master/Samples/Samples/TappedGestureAttached/MotorbikePage.xaml.cs)
 
 
 #### The EntryCompletedAttached
@@ -97,13 +97,19 @@ The EntryCompletedAttached is a command property designed to be attached to a co
 
 An example would be password entry.
 
-###### How to use this control 
+###### Instructions 
+
+###### Implementation and Samples
 
 The implementation of this AttachedProperty is given at:
 
+- [EntryCompletedAttached.cs](https://github.com/redironbark/FreshEssentials/blob/master/Tools/Tools/EntryCompletedAttached.cs)
+
 The sample for this AttachedProperty is given at:
 
+- [PasswordEntryPage.xaml](https://github.com/redironbark/FreshEssentials/blob/master/Samples/Samples/EntryCompletedAttached/PasswordEntryPage.xaml)
 
+- [PasswordEntryPage.xaml.cs](https://github.com/redironbark/FreshEssentials/blob/master/Samples/Samples/EntryCompletedAttached/PasswordEntryPage.xaml.cs)
 
 ## Custom Built Controls
 
