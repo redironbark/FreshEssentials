@@ -81,7 +81,7 @@ The ItemTappedProperty is a command property designed to be attached to a ListVi
 
 Install the Tools package using NuGet. Alternatively manually add the Tools.dll to the reference of your projects for common pcl, iOS and droid.
 
-In Xaml, add the reference to the ContentPage
+In Xaml, add the Tools reference to the ContentPage
 ```
 xmlns:local="clr-namespace:Tools;assembly=Tools"
 ```
@@ -89,15 +89,15 @@ xmlns:local="clr-namespace:Tools;assembly=Tools"
 then attach the property to the desired ListView
 ```
 <ListView x:Name="AircraftList" 
-			local:ItemTappedAttached.Command="{Binding Click}"
-			SelectedItem="{Binding SelectedItem}">
+	local:ItemTappedAttached.Command="{Binding Click}"
+	SelectedItem="{Binding SelectedItem}">
 ```
 
 In the code behind set the ContentPage binding context to the ViewModel
 ```
 AircraftViewModel viewModel = new AircraftViewModel (this.Navigation);
 
-			BindingContext = viewModel;
+BindingContext = viewModel;
 ```
 
 ###### Implementation and Samples
@@ -119,6 +119,24 @@ The TappedGestureAttached is a command property designed to be attached to a con
 ###### Instructions 
 
 Install the Tools package using NuGet. Alternatively manually add the Tools.dll to the reference of your projects for common pcl, iOS and droid.
+
+In Xaml, add the Tools reference to the ContentPage
+```
+xmlns:local="clr-namespace:Tools;assembly=Tools"
+```
+
+then attach the property to the desired component
+```
+<Image Source="{Binding SuzukiLocation}" 
+	local:TappedGestureAttached.Command="{Binding Click}"
+	local:TappedGestureAttached.CommandParameter="Suzuki">
+</Image>
+```
+
+In the code behind set the ContentPage binding context to the ViewModel
+```
+BindingContext = new MotorbikeViewModel ();
+```
 
 ###### Implementation and Samples
 
