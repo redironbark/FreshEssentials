@@ -4,9 +4,9 @@
 
 FreshEssentials is a library of tools designed to make it easier to build Xamarin Forms applications.
 
-One of the bottlenecks in the development of Xamarin Forms Applications is that XAML Controls are still under development and some of the features that are already available in the Windows Runtime XAML Framework have not yet been transferred across. This leaves the developer with the only option of writing these by themself, which is time consuming and prevents the developer from concentating on more pressing tasks.
+One of the bottlenecks in the development of Xamarin Forms Applications is that XAML Controls are often required with different features and properties to those avaialable with the standard library. This leaves the developer with the task of writing these by themself, which is time consuming and prevents the developer from concentating on more pressing needs.
 
-This library aims to alleviate the developer from this burden by providing already built tools for the most commonly used controls.
+This library aims to alleviate the developer from this burden by providing ready built tools for the most frequently used controls.
 
 
 So far the following types of tools have been built:
