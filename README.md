@@ -93,7 +93,7 @@ then attach the property to the desired ListView
 	SelectedItem="{Binding SelectedItem}">
 ```
 
-In the code behind set the ContentPage binding context to the ViewModel
+In the code behind set the context to the ViewModel
 ```
 AircraftViewModel viewModel = new AircraftViewModel (this.Navigation);
 
@@ -133,7 +133,7 @@ then attach the property to the desired component
 </Image>
 ```
 
-In the code behind set the ContentPage binding context to the ViewModel
+In the code behind set the binding context to the ViewModel
 ```
 BindingContext = new MotorbikeViewModel ();
 ```
@@ -175,7 +175,7 @@ then attach the property to the Entry control
 	local:EntryCompletedAttached.CommandParameter="usernameEntered"/>
 ```
 
-In the code behind set the ContentPage binding context to the ViewModel
+In the code behind set the binding context to the ViewModel
 ```
 BindingContext = new PasswordEntryViewModel (this);
 ```
