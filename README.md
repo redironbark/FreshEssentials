@@ -34,10 +34,24 @@ The extended class adds to the functionality of the original picker class by loa
 
 Install the Tools package using NuGet. Alternatively manually add the Tools.dll to the reference of your projects for common pcl, iOS and droid.
 
-In Xaml, add the reference to the ContentPage
+Create the control from the code behind
 ```
-xmlns:local="clr-namespace:Tools;assembly=Tools"
-```
+Tools.ExtendedPicker picker = new Tools.ExtendedPicker 
+			{ 
+				Title = "Color",
+				HorizontalOptions = LayoutOptions.Center,
+				WidthRequest = 190,
+				DisplayProperty = "Name",   
+				// from the Color Property object.
+				ItemsSource = ColorProperties,  
+				AllTitle = "List of Colors",
+				CanHaveAll = true
+			};
+			```
+	where ```"Name"``` is the field from the ```ColorProperty``` object to display in the Extended Picker list and
+	
+	```ColorProperties``` is a List of ```ColorProperty```.
+
 
 ###### Implementation and Samples 
 
