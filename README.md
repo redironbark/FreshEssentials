@@ -48,12 +48,12 @@ Tools.ExtendedPicker picker = new Tools.ExtendedPicker
 			};
 ```
 
-where `"Name"` is the field from the `ColorProperty` object to display in the Extended Picker list and `ColorProperties` is a List of `ColorProperty` objects that is maintained by the control. `AllTitle` is the text string displayed fro the list and `CanHaveAll` is the boolean variable to decide whether a title is used or not.
+where `"Name"` is the field from the `ColorProperty` object to display in the Extended Picker list and `ColorProperties` is a List of `ColorProperty` objects that is maintained by the control. `AllTitle` is the text string displayed for the list and `CanHaveAll` is the boolean variable to decide whether a title is used or not.
 
 
 ###### Implementation and Samples 
 
-The implementation of this ExtendedPicker is given at:
+The implementation of the ExtendedPicker is given at:
 
 - [ExtentedPicker.cs](https://github.com/redironbark/FreshEssentials/blob/master/Tools/Tools/ExtendedPicker.cs)
 
@@ -102,11 +102,11 @@ BindingContext = viewModel;
 
 ###### Implementation and Samples
 
-The implementation of this AttachedProperty is given at:
+The implementation of the ItemTappedAttached is given at:
 
 - [ItemTappedAttached.cs](https://github.com/redironbark/FreshEssentials/blob/master/Tools/Tools/ItemTappedAttached.cs)
 
-The sample for this AttachedProperty is given at:
+The sample is given at:
 
 - [AircraftPage.xaml](https://github.com/redironbark/FreshEssentials/blob/master/Samples/Samples/ItemTappedAttached/AircraftPage.xaml)
 
@@ -140,11 +140,11 @@ BindingContext = new MotorbikeViewModel ();
 
 ###### Implementation and Samples
 
-The implementation of this AttachedProperty is given at:
+The implementation of this TappedGestureAttached is given at:
 
 - [TappedGestureAttached.cs](https://github.com/redironbark/FreshEssentials/blob/master/Tools/Tools/TappedGestureAttached.cs)
 
-The sample for this AttachedProperty is given at:
+The sample is given at:
 
 - [MotorbikePage.xaml](https://github.com/redironbark/FreshEssentials/blob/master/Samples/Samples/TappedGestureAttached/MotorbikePage.xaml)
 
@@ -182,11 +182,11 @@ BindingContext = new PasswordEntryViewModel (this);
 
 ###### Implementation and Samples
 
-The implementation of this AttachedProperty is given at:
+The implementation of the EntryCompletedAttached is given at:
 
 - [EntryCompletedAttached.cs](https://github.com/redironbark/FreshEssentials/blob/master/Tools/Tools/EntryCompletedAttached.cs)
 
-The sample for this AttachedProperty is given at:
+The sample is given at:
 
 - [PasswordEntryPage.xaml](https://github.com/redironbark/FreshEssentials/blob/master/Samples/Samples/EntryCompletedAttached/PasswordEntryPage.xaml)
 
