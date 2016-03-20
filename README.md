@@ -106,7 +106,7 @@ The implementation of the ItemTappedAttached is given at:
 
 - [ItemTappedAttached.cs](https://github.com/redironbark/FreshEssentials/blob/master/Tools/Tools/ItemTappedAttached.cs)
 
-The sample is given at:
+The sample of the ItemTappedAttached is given at:
 
 - [AircraftPage.xaml](https://github.com/redironbark/FreshEssentials/blob/master/Samples/Samples/ItemTappedAttached/AircraftPage.xaml)
 
@@ -140,11 +140,11 @@ BindingContext = new MotorbikeViewModel ();
 
 ###### Implementation and Samples
 
-The implementation of this TappedGestureAttached is given at:
+The implementation of the TappedGestureAttached is given at:
 
 - [TappedGestureAttached.cs](https://github.com/redironbark/FreshEssentials/blob/master/Tools/Tools/TappedGestureAttached.cs)
 
-The sample is given at:
+The sample of the TappedGestureAttached is given at:
 
 - [MotorbikePage.xaml](https://github.com/redironbark/FreshEssentials/blob/master/Samples/Samples/TappedGestureAttached/MotorbikePage.xaml)
 
@@ -186,7 +186,7 @@ The implementation of the EntryCompletedAttached is given at:
 
 - [EntryCompletedAttached.cs](https://github.com/redironbark/FreshEssentials/blob/master/Tools/Tools/EntryCompletedAttached.cs)
 
-The sample is given at:
+The sample of the EntryCompletedAttached is given at:
 
 - [PasswordEntryPage.xaml](https://github.com/redironbark/FreshEssentials/blob/master/Samples/Samples/EntryCompletedAttached/PasswordEntryPage.xaml)
 
