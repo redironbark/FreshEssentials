@@ -32,6 +32,13 @@ The extended class adds to the functionality of the original picker class by loa
 
 ###### Instructions 
 
+Install the Tools package using NuGet. Alternatively manually add the Tools.dll to the reference of your projects for common pcl, iOS and droid.
+
+In Xaml, add the reference to the ContentPage
+```
+xmlns:local="clr-namespace:Tools;assembly=Tools"
+```
+
 ###### Implementation and Samples 
 
 The implementation of this ExtendedPicker is given at:
@@ -60,6 +67,8 @@ The ItemTappedProperty is a command property designed to be attached to a ListVi
 
 ###### Instructions 
 
+Install the Tools package using NuGet. Alternatively manually add the Tools.dll to the reference of your projects for common pcl, iOS and droid.
+
 ###### Implementation and Samples
 
 The implementation of this AttachedProperty is given at:
@@ -77,6 +86,8 @@ The sample for this AttachedProperty is given at:
 The TappedGestureAttached is a command property designed to be attached to a control such as an Image to handle the case of when an item is tapped. 
 
 ###### Instructions 
+
+Install the Tools package using NuGet. Alternatively manually add the Tools.dll to the reference of your projects for common pcl, iOS and droid.
 
 ###### Implementation and Samples
 
@@ -98,6 +109,8 @@ The EntryCompletedAttached is a command property designed to be attached to a co
 An example would be password entry.
 
 ###### Instructions 
+
+Install the Tools package using NuGet. Alternatively manually add the Tools.dll to the reference of your projects for common pcl, iOS and droid.
 
 ###### Implementation and Samples
 
