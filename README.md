@@ -70,7 +70,7 @@ One of the hallmarks of Xamarin Forms is that it uses MVVM, just like its big br
 
 Unfortunately the Command Property is not availaible on every XAML control, which is the job of the tools provided here. The tools in this section make the Command Property available to XAML Controls that would otherwise not have them. This is achieved by creating the property as an external property, otherwise known as the Attached Property. Although it can be argued that this can be handled by creating a Tap Gesture, an Attached Property simplifies the code considerably. Michael Ridland has discussed Attached Properties in more depth at http://www.michaelridland.com/xamarin/xaml-attached-properties-tricks-in-xamarin-forms/.
 
-<sup>✝</sup>*Note that FreshMVVM handles much of the labour of creating MVVM applications automatically and the reader is encouraged to use this for new applications (https://github.com/rid00z/FreshMvvm)*.
+><sup>✝</sup>*Note that FreshMVVM handles much of the labour of creating MVVM applications automatically and the reader is encouraged to use this for new applications (https://github.com/rid00z/FreshMvvm)*.
 
 
 #### The ItemTappedAttached Property
