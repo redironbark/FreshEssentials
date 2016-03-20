@@ -26,7 +26,7 @@ These are explained in more detail in the relevent sections contained within thi
 
 This class extends the existing Picker class described at https://developer.xamarin.com/api/type/Xamarin.Forms.Picker/.
 
-The operation of the original class is similar to that of a pop-up keyboard. The user clicks on the text-entry field to bring up a list of items to choose from. The list of items displayed is a string, which is typically set to the index of an external source such as a dictionary (or similar). The user codes the property changed event to handle the fetching and displaying of the chosen item from the dictionary. 
+The operation of the original class is similar to that of a pop-up keyboard. The user clicks on the text-entry field to bring up a list of items to choose from. The list of items displayed is a string, which is typically taken from the index of an external source such as a dictionary (or similar). The user codes the property changed event to handle the fetching and displaying of the chosen item from the dictionary. 
 
 The extended class adds to the functionality of the original picker class by loading the external source of items internally within the control. Consequently the property changed event is handled automatically, freeing the user from this task. The Extended Picker class also adds a title property to the picker class for displaying with the list of items.
 
