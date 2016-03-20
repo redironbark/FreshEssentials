@@ -48,7 +48,7 @@ Tools.ExtendedPicker picker = new Tools.ExtendedPicker
 			};
 ```
 
-where `"Name"` is the field from the `ColorProperty` object to display in the Extended Picker list and `ColorProperties` is a List of `ColorProperty` objects that is maintained by the control. 'AllTitle` is the text string displayed fro the list and `CanHaveAll` is the boolean variable to decide whether a title is used or not.
+where `"Name"` is the field from the `ColorProperty` object to display in the Extended Picker list and `ColorProperties` is a List of `ColorProperty` objects that is maintained by the control. `AllTitle` is the text string displayed fro the list and `CanHaveAll` is the boolean variable to decide whether a title is used or not.
 
 
 ###### Implementation and Samples 
