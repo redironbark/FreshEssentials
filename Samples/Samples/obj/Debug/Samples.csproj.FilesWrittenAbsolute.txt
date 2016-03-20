@@ -1,0 +1,16 @@
+/Users/Mark/Projects/Snowflake/Samples/Samples/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/Mark/Projects/Snowflake/Samples/Samples/obj/Debug/Samples.ItemTappedAttached.AircraftPage.xaml
+/Users/Mark/Projects/Snowflake/Samples/Samples/obj/Debug/Samples.TappedGestureAttached.MotorbikePage.xaml
+/Users/Mark/Projects/Snowflake/Samples/Samples/obj/Debug/AircraftPage.xaml.g.cs
+/Users/Mark/Projects/Snowflake/Samples/Samples/obj/Debug/MotorbikePage.xaml.g.cs
+/Users/Mark/Projects/Snowflake/Samples/Samples/bin/Debug/Samples.dll.mdb
+/Users/Mark/Projects/Snowflake/Samples/Samples/bin/Debug/Samples.dll
+/Users/Mark/Projects/Snowflake/Samples/Samples/obj/Debug/Samples.dll
+/Users/Mark/Projects/Snowflake/Samples/Samples/obj/Debug/Samples.dll.mdb
+/Users/Mark/Projects/Snowflake/Samples/Samples/bin/Debug/Xamarin.Forms.Core.dll
+/Users/Mark/Projects/Snowflake/Samples/Samples/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/Mark/Projects/Snowflake/Samples/Samples/bin/Debug/Tools.dll
+/Users/Mark/Projects/Snowflake/Samples/Samples/obj/Debug/Samples.ExtendedPicker.ColorPickerPage.xaml
+/Users/Mark/Projects/Snowflake/Samples/Samples/obj/Debug/Samples.EntryCompletedAttached.PasswordEntryPage.xaml
+/Users/Mark/Projects/Snowflake/Samples/Samples/obj/Debug/ColorPickerPage.xaml.g.cs
+/Users/Mark/Projects/Snowflake/Samples/Samples/obj/Debug/PasswordEntryPage.xaml.g.cs

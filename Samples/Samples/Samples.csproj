@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{AAEE88CC-9820-4617-9802-004A8AF463C8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Samples</RootNamespace>
+    <AssemblyName>Samples</AssemblyName>
+    <TargetFrameworkProfile>Profile78</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Samples.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ItemTappedAttached\AircraftPage.xaml.cs">
+      <DependentUpon>AircraftPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ItemTappedAttached\AircraftViewModel.cs" />
+    <Compile Include="ItemTappedAttached\AircraftModel.cs" />
+    <Compile Include="ItemTappedAttached\ImagePage.cs" />
+    <Compile Include="TappedGestureAttached\MotorbikePage.xaml.cs">
+      <DependentUpon>MotorbikePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TappedGestureAttached\MotorbikeModel.cs" />
+    <Compile Include="TappedGestureAttached\MotorbikeViewModel.cs" />
+    <Compile Include="ExtendedPicker\ColorPickerPage.xaml.cs">
+      <DependentUpon>ColorPickerPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EntryCompletedAttached\PasswordEntryPage.xaml.cs">
+      <DependentUpon>PasswordEntryPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EntryCompletedAttached\PasswordEntryViewModel.cs" />
+    <Compile Include="EntryCompletedAttached\Employee.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <Import Project="..\packages\Xamarin.Forms.1.3.5.6335\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.1.3.5.6335\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
+  <ItemGroup>
+    <Reference Include="Xamarin.Forms.Core">
+      <HintPath>..\packages\Xamarin.Forms.1.3.5.6335\lib\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Xaml">
+      <HintPath>..\packages\Xamarin.Forms.1.3.5.6335\lib\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
+    </Reference>
+    <Reference Include="Tools">
+      <HintPath>..\..\Tools\Tools\bin\Debug\Tools.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ItemTappedAttached\" />
+    <Folder Include="TappedGestureAttached\" />
+    <Folder Include="EntryCompletedAttached\" />
+    <Folder Include="ExtendedPicker\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ItemTappedAttached\AircraftPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TappedGestureAttached\MotorbikePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtendedPicker\ColorPickerPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EntryCompletedAttached\PasswordEntryPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

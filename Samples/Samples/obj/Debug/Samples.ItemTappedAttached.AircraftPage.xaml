@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="Samples.AircraftPage"
+	xmlns:local="clr-namespace:Tools;assembly=Tools">
+
+	<ContentPage.Content>
+		<ListView x:Name="AircraftList" 
+			local:ItemTappedAttached.Command="{Binding Click}"
+			SelectedItem="{Binding SelectedItem}">
+			<ListView.ItemTemplate>
+				<DataTemplate>
+					<ImageCell ImageSource="{Binding Url}"
+								Text="{Binding Name}"
+								TextColor="Black"
+								Detail="{Binding Detail}"
+								DetailColor="Navy"/>
+				</DataTemplate>
+			</ListView.ItemTemplate>
+		</ListView>
+	</ContentPage.Content>
+</ContentPage>
